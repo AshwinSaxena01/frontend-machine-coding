@@ -1,0 +1,17 @@
+.box-container {
+  border: 1px black solid;
+  padding: 16px;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.active {
+  background-color: green;
+}
